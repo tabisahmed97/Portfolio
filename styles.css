@@ -1,0 +1,555 @@
+body{
+    margin: 1vw 0vw;
+    padding: 0px;
+    /* border: solid red 3px; */
+}
+section{
+    margin: 3vh 0 5vh 0;
+    /* border: solid rgb(0, 47, 255) 3px; */
+    padding-top:3vh;
+    padding-bottom:5vh;
+}
+.purple{
+    background-color: #C4C7F1;
+}
+.white{
+    background-color: white;
+}
+.yellow{
+    background-color: yellow;
+}
+.sky{
+    background-color: rgb(64, 202, 248);
+}
+@font-face {
+    font-family:'BebasNeue' ;
+    src: url(./BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: 'Instrumental-sherif';
+    src: url(./InstrumentSerif-Italic.ttf);
+}
+@font-face {
+    font-family: 'aktab';
+    src: url(./Akatab-Regular.ttf);
+}
+.font-Instrument{
+    font-family:'Instrumental-sherif';
+}
+.BebasNeue{
+    font-family:"BebasNeue";
+}
+.aktab{
+    font-family: 'aktab';
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+#banner{
+    /* border: solid rgb(172, 180, 22) 3px; */
+    display: flex;
+    flex-direction: row;
+    margin: 5vh 4vw;
+    justify-content: space-around;
+}
+.intro{
+    /* border: solid rgb(22, 180, 98) 3px;    */
+    max-width: 30vw;
+    max-height: 30vw;
+} 
+
+
+.photo img{
+    height: 75vh;
+    object-fit: contain;
+    /* border: solid rgb(22, 180, 98) 3px;    */
+}
+h4{
+    font-size: 1.5rem;
+    font-family: "Instrument Serif";
+    font-weight: 400;
+}
+
+/* I am Tabish Ahmed */
+
+#name-cont{
+   /* height: 15vh;*/
+    /* border: saddlebrown solid 3px; */
+    display: flex;
+
+}
+
+#I h1{
+    font-size: 14vh;
+    font-family:"BebasNeue";
+    transform: rotate(-90deg); 
+    line-height: 0;
+    
+    /* border: solid rgb(22, 146, 180) 3px; */
+}
+#left-main{
+    
+    /* width: 20%; */
+    padding: 1vh;
+    /* border: solid rgb(22, 146, 180) 3px; */
+}
+#left-main-internal{
+    background-color: white;
+    padding: 1vh 0;
+    /* border: solid rgb(22, 146, 180) 3px; */
+    
+    
+}
+#left-main-internal div{
+    margin: 2px 0;
+    padding-bottom: 1vh ;
+    /* border: solid rgb(22, 146, 180) 3px; */
+}
+#A{
+    font-size: 3rem;
+    font-family:"BebasNeue";
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+#main{
+    /* border: solid rgb(22, 146, 180) 3px;  */
+    /* width: 48vh;    */
+    display: flex;
+}
+#name-des{
+  
+    width: 100%;
+}
+#name-des div{
+    padding-bottom: 10px;
+
+}
+#UI{
+    font-size: 3rem;
+   
+    padding-right: 2vh;
+}
+#Tabis{
+    font-size: 3rem;
+ 
+}
+.label{
+    
+    text-align: left;
+    
+}
+
+.contact-cont{
+    display: inline-block;
+    cursor: pointer;
+}
+#behance{
+    background-color: yellow;
+}
+#linkedIn{
+    background-color: rgb(92, 183, 253);
+}
+.contact{
+    display: flex;
+    padding: 5px 15px 5px 10px;
+    font-size:1.2rem;
+    margin:10px;
+    /* transition:transform 0.3s; */
+    transition: 1s ease;
+}
+.contact:hover{
+    /* transform:scale(1.1) ; */
+    /* box-shadow: 2px 2px 2px black */
+    border: solid black 2px;
+    
+    
+}
+.logo{
+    width: 1.2rem;
+    padding: 0 4px;
+    
+}
+/* @keyframes  hover{
+    from 0%{
+        border: none;
+    }
+    to 100%{
+        border: solid black 2px;
+    }
+} */
+
+
+/* RESUME SECTION */
+
+#resume-cont{
+    
+    /* height: 10vh; */
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 4rem 0;
+    
+}
+#download-cont{
+    
+    display: flex;
+    font-size: 2.5rem;
+    /* background: radial-gradient(29.45% 114.18% at 103.88% 102.65%, #FFFFF4 0%, rgba(255, 255, 244, 0.00) 100%), linear-gradient(90deg, #FFFCF0 0%, #E5E7FF 100%); */
+    padding: 20px 40px;
+    background: linear-gradient(45deg,#f5f5c5,rgba(236, 208, 244, 0),#E5E7FF,#bee1f5);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+}
+.download-part{
+    margin: 7px;
+    text-align: center;
+}
+#resume{
+   
+   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+   width: 12vw;
+   background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+}
+#resume a{
+    color: #ffffff; 
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* @keyframes resume-animation{
+    from{
+        background-image: linear-gradient(to right, #3E45FD 0%, #FF45E1);
+       
+    }
+    to{
+        background-image: linear-gradient(to right, #FF45E1 0%, #3E45FD);
+       
+    }
+} */
+
+/* DESIGN SECTION */
+
+#design-cont{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    position: relative;
+}
+#design-arrow{
+    position: absolute;
+    top: 9%;
+    left:60.5%
+}
+#design-head{
+    display: flex;
+    margin: 2rem 0 2rem 0;
+    
+}
+#design-part1{
+    transform: rotate(-90deg);
+    font-size: 3rem;
+}
+#design-part2{
+    background: #FFDFD6;
+    padding: 0px 16px;
+    font-size: 2.5rem;
+}
+#skills img{
+    margin-top: 5rem;
+}
+
+/* TOOLS SECTION */
+
+#tools-cont{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8vh;
+    
+}
+#tools-head{
+    display: flex;
+    margin: 5vh 0;
+}
+#tools-part1{
+    font-size: 3rem;
+    margin:0 10px 0 10px;
+}
+#tools-part2{
+
+    padding: 0px 16px;
+    font-size: 2.5rem;
+    background: #BBE9FF;
+}
+
+.tools-img{
+
+    object-fit: contain;
+}
+#tools-bg{
+    
+    width: 100%;
+    min-height: 35vh;
+    background-image:URL("./src/Images/Tools Background.png");
+    background-size: cover;  /* This will ensure the image covers the entire container */
+    background-position: center;      /* Centers the image */
+    background-repeat: no-repeat;   
+}
+#tools-img-cont{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:80% ;
+    margin: 3.5vh auto;
+}
+
+#tools-bg div{
+   /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+/* WORK SECTION */
+
+
+#work-project-cont{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#work-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#work-part1{
+    font-size: 3rem;
+    margin:0 10px 0 10px;
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: space-between;
+    width: 18%;
+}
+#work-part2{
+
+    text-align: center;
+    font-size: 2.5rem;
+    background:#F6E553;
+    width: 18%;
+}
+#work-project-cont{
+    display: flex;
+    justify-content: center;
+    margin: 3vw ;
+}
+
+
+/* BAKERY */
+
+.work-project{
+    
+    display: flex;  
+    color: white;
+    margin: 2vw;
+}
+#wp-1{
+    background: linear-gradient(180deg, #9E2233 0%, #761A26 100%);
+}
+#text-cont{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#text-cont-part1{
+    
+    padding: 0 2vw;
+}
+#text-cont-part1 h1{
+    font-size: 3.5rem;
+}
+
+#bakery-cont img{
+    width: 40vw;
+    padding: 1vw;
+}
+/* .bakery-btn{
+    font-size: 1rem;
+    padding: 0.5vw 1vw;
+    color: #000;
+} */
+.view-work{
+    background-color: #ffffff;
+    width: 5vw;
+    padding: 5px 10px;
+    
+}
+
+/* Laundry */
+
+#wp-2{
+    background: #C9EDEB;
+    color: #000;
+}
+
+
+/* Hobbies Section */
+#hobbies-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#hobbies-head{
+    display: flex;
+    justify-content: center;
+}
+
+#hh1-part1{
+    font-size: 3rem;
+    margin:0 10px 0 10px;
+}
+#hh1-part2{
+
+    padding: 0px 16px;
+    font-size: 2.5rem;
+    background: #FF99D7;
+}
+
+#hh2 img{
+    height: 16vh;
+    margin-left: 1vw;
+    
+}
+
+
+#hobbies-part2{
+    width: 30%;
+    padding: 4vw 0 4vw 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.footbll-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:3vh 0;
+
+}
+.fc-1{
+    font-size: 3rem;
+    margin:0 10px 0 10px;
+}
+.fc-2{
+
+    padding: 0px 16px;
+    font-size: 2.5rem;
+
+}
+#footbll-img-cont{
+    display: flex;
+    /* 
+    border: solid red 2px; */
+    justify-content: space-around;
+    margin: 3vh;
+    
+}
+.footbll-img img{
+    width: 50vh;
+    /* object-fit: over-flow; */
+    margin: 0 1vh;
+    border: solid 1vh rgb(159, 157, 157);
+}
+
+
+/* MESSI AND RONALDO */
+
+#M-R{
+    display: flex;
+}
+#M-R img{
+    width: 50vh;
+    margin: 5vh;
+    border: #919194 5px solid;
+}
+
+
+/* Contact*/
+
+/* #contact-cont{
+    display: flex;
+    justify-content: center;
+}
+
+#connect-1{
+    display: flex;
+    flex-direction: column;
+}  */
+
+#contact-inner-cont{
+    display: flex;
+    width: 70vw;
+    margin:0 auto;
+}
+
+#connect-1{
+    width: 50%;
+    margin-right:5vh;
+}
+
+
+#connect-head{
+    display: flex;
+}
+#connect-part1{
+    font-size: 3rem;
+    margin:0 10px 0 10px;
+}
+#connect-part2{
+
+    padding: 0px 16px;
+    font-size: 2.5rem;
+    background: #f5953b;
+}
+
+
+
+#connect-2{
+    display: flex;
+}
+.employment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emp-img{
+    width: 30vh;
+    aspect-ratio: 9/9;
+    overflow: hidden;
+    margin: 3vh;
+    border:solid 10px rgb(193, 190, 190)
+}
+.emp{
+    font-size:1.2rem;
+}
